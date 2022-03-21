@@ -7,7 +7,7 @@ About us text
 ## Deposit your first article.
 ### Getting a deposition link.
 text
-#### 1. I recieved an email.
+#### 1. **I recieved an email.**
 text
-#### 2. I did NOT recieve an email.
+#### 2. **I did NOT recieve an email.**
 text

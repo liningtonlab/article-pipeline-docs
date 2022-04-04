@@ -9,6 +9,8 @@ The npmrd-deposition takes NMR-data on a compound by compound basis. In other wo
 
 ![Bruker-File-Struct](https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png)
 
+<img src="https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png" alt="drawing" width="200"/>
+
 
 ### 2. Getting a deposition link.
 In order to deposit into the NPMRD, you must visit a submission link unique to their article. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.

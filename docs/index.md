@@ -34,3 +34,5 @@ In order to deposit into the NPMRD, you must visit a submission link unique to t
 Your unqiue link within the body of the email. Accessing the page is as easy as clicking the hyperlink or copy pasting it into your address bar.
 #### ii) **I did NOT recieve an email.**
 If you did not recieve an email you will have to search your article using it's DOI. This can be done through the npmrd-deposition [front page](http://npmrd-deposition.org/). Once on the front page, paste your article DOI into the main search bar click "Send". We will then load your unique webpage for you.
+
+<img src="https://user-images.githubusercontent.com/55040326/161645503-5cb17cc5-ba2a-4b03-b19f-256355af6189.png" alt="drawing" width="600"/>

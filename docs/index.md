@@ -7,9 +7,7 @@ Although npmrd-deposition.org is a drag and drop data deposition platform, we st
 #### i) **Folder Structure**
 The npmrd-deposition takes NMR-data on a compound by compound basis. In other words, we ask that each compound being submitted have its own folder which contains the NMR experiments pertaining to that compound. Below is an example folder displaying the structure for a folder containing data on a compound named "Granaticin_C".
 
-![Bruker-File-Struct](https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png)
-
-<img src="https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png" alt="drawing" width="600"/>
 
 
 ### 2. Getting a deposition link.

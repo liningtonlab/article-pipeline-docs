@@ -16,6 +16,17 @@ The npmrd-deposition takes NMR-data on a compound by compound basis. In other wo
 #### **JEOL**
 <img src="https://user-images.githubusercontent.com/55040326/161641605-1af6ba51-245e-4a92-bda6-900a76b913d1.png" alt="drawing"/>
 
+#### ii) **Zipping your data**
+Once you have confirmed the data is in the correct file structure, each folder must be zipped separately. This means that if you have three compounds you should zip each of them to produce three separate zip folders. For instruction on how to zip your compound folders for each operating system see below:
+
+#### **Windows 10**
+<img width="847" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/161642912-bdd37ae9-9436-4e15-b1cf-4b73f532a4f6.png">
+
+#### **Windows 11**
+<img width="599" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/161642922-6dc30791-7502-4c38-b95a-6d91c4423850.png">
+
+#### **MacOS**
+<img width="598" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/161642938-67700719-d4f2-41fe-b35b-7a9e6c2fbbd4.png">
 
 ### 2. Getting a deposition link.
 In order to deposit into the NPMRD, you must visit a submission link unique to their article. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.

@@ -4,8 +4,10 @@ This is a quick reference guide for those users that want to know a bit more abo
 ## Deposit your first article.
 ### 1. Prepare your Data.
 Although npmrd-deposition.org is a drag and drop data deposition platform, we still ask for some preparation to be done on the NMR-data folders.
-#### i) Folder Structure.
+#### i) **Folder Structure**
 The npmrd-deposition takes NMR-data on a compound by compound basis. In other words, we ask that each compound being submitted have its own folder which contains the NMR experiments pertaining to that compound. Below is an example folder displaying the structure for a folder containing data on a compound named "Granaticin_C".
+
+![Bruker_File_Struct](https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png)
 
 
 ### 2. Getting a deposition link.

@@ -9,15 +9,15 @@ The npmrd-deposition takes NMR-data on a compound by compound basis. In other wo
 
 
 #### **Bruker**
-<img src="https://user-images.githubusercontent.com/55040326/161634294-572b8b3a-dd58-4cb1-b020-0284fc59dc1e.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/55040326/162089179-123ab9f8-90e1-4de5-89a4-8a8f7ad60a3d.png" alt="drawing" width="800"/>
 
 
 #### **Varian**
-<img src="https://user-images.githubusercontent.com/55040326/161641597-cae8e8d9-4ed4-46e3-88c4-d543f3ce7698.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/55040326/162089387-1422a4b6-4d2a-441f-b3bc-cd605dbd48f0.png" alt="drawing" width="800"/>
 
 
 #### **JEOL**
-<img src="https://user-images.githubusercontent.com/55040326/161641605-1af6ba51-245e-4a92-bda6-900a76b913d1.png" alt="drawing"/>
+<img src="https://user-images.githubusercontent.com/55040326/162089401-dcde0d95-4481-4604-8eea-2fb358bf947d.png" alt="drawing"/>
 
 
 ### ii) **Zipping your data**
@@ -25,15 +25,15 @@ Once you have confirmed the data is in the correct file structure, each folder m
 
 
 #### **Windows 10**
-<img width="847" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/161642912-bdd37ae9-9436-4e15-b1cf-4b73f532a4f6.png">
+<img width="847" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/162090109-900c92df-418d-4d8d-a44c-5a576b12794a.png">
 
 
 #### **Windows 11**
-<img width="599" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/161642922-6dc30791-7502-4c38-b95a-6d91c4423850.png">
+<img width="599" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/162090126-2753f72e-d852-427a-863c-9040f4353583.png">
 
 
 #### **MacOS**
-<img width="598" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/161642938-67700719-d4f2-41fe-b35b-7a9e6c2fbbd4.png">
+<img width="598" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
 
 ## 2. Getting a deposition link.
 In order to deposit into the NPMRD, you must visit a submission link unique to their article. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.

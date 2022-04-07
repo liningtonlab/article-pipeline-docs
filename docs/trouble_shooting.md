@@ -30,7 +30,7 @@ This is indicating that the webpage has not found NMR Data produced by one of th
 1. Check your zip file to make sure that is really is NMR data. Have you zipped the wrong folder? Are there files missing?
 2. Check to make sure that your NMR folders have parameter files in them. These files are labelled "procpar" for Varian data and "acqu/acqus" for Bruker data. 
 
-<img src="https://user-images.githubusercontent.com/55040326/162330960-e64253c8-d4a7-402b-b1d6-a95a70266899.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/55040326/162330960-e64253c8-d4a7-402b-b1d6-a95a70266899.png" alt="drawing" width="500"/>
 
 ## **Error: Fid file missing**
 This indicates that there is a missing fid file from one of your experiments. Without this fid file we can not accept the data your are depositing.

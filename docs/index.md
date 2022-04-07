@@ -25,15 +25,15 @@ Once you have confirmed the data is in the correct file structure, each folder m
 
 
 #### **Windows 10**
-<img width="847" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/162090109-900c92df-418d-4d8d-a44c-5a576b12794a.png">
+<img width="800" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/162090109-900c92df-418d-4d8d-a44c-5a576b12794a.png">
 
 
 #### **Windows 11**
-<img width="599" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/162090126-2753f72e-d852-427a-863c-9040f4353583.png">
+<img width="800" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/162090126-2753f72e-d852-427a-863c-9040f4353583.png">
 
 
 #### **MacOS**
-<img width="598" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
+<img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
 
 ## 2. Getting a deposition link.
 In order to deposit into the NPMRD, you must visit a submission link unique to their article. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.
@@ -44,18 +44,35 @@ If you did not recieve an email you will have to search your article using it's 
 
 <img src="https://user-images.githubusercontent.com/55040326/161645503-5cb17cc5-ba2a-4b03-b19f-256355af6189.png" alt="drawing" width="600"/>
 
-## 3. Filling your Data.
+## 3. Filling and Uploading your Data.
 Once your DOI has been processed you will be taken to the main deposition page. 
 Here the deposition software attempts to find the compounds which are in your article and automatically fill the text fields for you. Depending on the sucess of this software your page will appear in one of two states.
 
 ### i) **Compound, Genus, and Species are pre-filled.**
  When the auto-fill process is successful, you are greeted with every compound from your paper already entered for you. From here you will need to fill the structures(SMILES) and drag and drop your zipped folders prepared in part 1.
 
+<img src="https://user-images.githubusercontent.com/55040326/162258608-c730b6f7-fc66-403b-a1e8-656a85efb2de.png" alt="drawing" width="600"/>
+
+
 ### ii) **All fields are empty.**
 When the auto-fill fails, all the text fields will appear empty. This means that it will be on you as the depositor to fill the text fields. You will also need to click the "Add +" button to create additional rows for articles that contain more than one compound. From there you will also need to fill the structures(SMILES) and drag and drop your zipped folders prepared in part 1.
 
 <img src="https://user-images.githubusercontent.com/55040326/162055817-e9d248d7-7ea9-47e7-bc42-f2264c27d1e0.png" alt="drawing" width="600"/>
 
-This page can also appear pre-filled with multiple rows of compounds if 
-Start by filling the text fields according to their prompts (Email, Compound Name, Genus, or Species).
+By now you should have filled all the text fields and dragged your prepared zip folders into their respective drop sections. Next you will want to hit the "Validate" button on the bottom right of the screen. The page should then start uploading your data. This may take a while and the progress can be found via the loading bar.
+
+## 4. Validating your Data.
+Once the upload process is complete you will be presented with another page containing all of the compounds and experiments you have uploaded. (See image below)
+
+<img src="https://user-images.githubusercontent.com/55040326/162261765-511f0981-0f53-494e-add3-5559edbef3e7.png" alt="drawing" width="600"/>
+
+This page is intended for you to double check your submitted compounds and experiments. You should ensure that the displayed structures and experiments are valid and match what was submitted in the zip folder. If this is not the case then the "Modify" buttom will take you back to previouse page to alter your submission.
+
+
+## 5. Submit!
+Once you are sure that all your data is correct you can go ahead and hit the "Submit" button to lock in your deposition.
+
+<img src="https://user-images.githubusercontent.com/55040326/162262956-8c764b6e-bbd2-4443-b85b-7493c3d54dae.png" alt="drawing" width="600"/>
+
+Congratulations! You have sucessfully completed you first deposition on the NP-MRD Deposition Platform. We hope that wasn't too tedious and that you'll come again when you publish your next paper.
 

@@ -8,6 +8,9 @@ back_to_top_text: "Back to top"
 # Footer last edited timestamp
 last_edit_timestamp: true 
 
+# google analytics
+google_analytics: UA-225940773-2
+
 
 
 

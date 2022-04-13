@@ -9,7 +9,7 @@ back_to_top_text: "Back to top"
 last_edit_timestamp: true 
 
 # google analytics
-google_analytics: UA-225940773-2
+ga_tracking: UA-225940773-2
 
 
 

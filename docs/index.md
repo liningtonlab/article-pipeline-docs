@@ -1,5 +1,5 @@
 # Quick User Guide
-This is a quick reference guide for those users that want to know a bit more about the NPMRD Deposition Platform. For those looking to deposit recent or old articles this guide will give you all the information you need to make a quick and easy deposition. 
+For those looking to deposit data with published or un-published articles, this guide will give you all the information you need to make a quick and easy deposition. 
 
 # Deposit your first article.
 ## 1. Prepare your Data.
@@ -36,43 +36,85 @@ Once you have confirmed the data is in the correct file structure, each folder m
 <img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
 
 ## 2. Getting a deposition link.
-In order to deposit into the NPMRD, you must visit a submission link unique to their article. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.
+In order to deposit into the NPMRD, you must visit a submission link unique to your deposition. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.
 ### i) **I recieved an email.**
-Your unqiue link within the body of the email. Accessing the page is as easy as clicking the hyperlink or copy pasting it into your address bar.
+Your unqiue link can be found within the body of the email. Accessing the page is as easy as clicking the hyperlink or copy pasting it into your address bar.
 ### ii) **I did NOT recieve an email.**
-If you did not recieve an email you will have to search your article using it's DOI. This can be done through the npmrd-deposition [front page](http://npmrd-deposition.org/). Once on the front page, paste your article DOI into the main search bar click "Send". We will then load your unique webpage for you.
+If you did not recieve an email your method of arriving at your deposition page will be based on wether or not your data is from a published article or an unpublished article. Please follow the case that applies to you below.
+
+#### 1. My data is from a PUBLISHED article.
+To get to a deposition page you will need to submit your doi through the deposition [front page](http://npmrd-deposition.org/). Once on the front page, you will first have to specify that your data is from a published article. This should load a page with a search bar where you will paste your doi and click "Submit". 
 
 <img src="https://user-images.githubusercontent.com/55040326/161645503-5cb17cc5-ba2a-4b03-b19f-256355af6189.png" alt="drawing" width="600"/>
 
-## 3. Filling and Uploading your Data.
-Once your DOI has been processed you will be taken to the main deposition page. 
-Here the deposition software attempts to find the compounds which are in your article and automatically fill the text fields for you. Depending on the sucess of this software your page will appear in one of two states.
+Once you submit the doi, you should be brought to your unique deposition link.
 
-### i) **Compound, Genus, and Species are pre-filled.**
- When the auto-fill process is successful, you are greeted with every compound from your paper already entered for you. From here you will need to fill the structures(SMILES) and drag and drop your zipped folders prepared in part 1.
+#### 2. My data is from an UNPUBLISHED article.
+To get to your deposition page from here you will have to select the UNPUBLISHED option on the [front page](http://npmrd-deposition.org/). This will take you to another page where you will be prompted to enter information about your unpublished article.
 
-<img src="https://user-images.githubusercontent.com/55040326/162258608-c730b6f7-fc66-403b-a1e8-656a85efb2de.png" alt="drawing" width="600"/>
+<img width="1327" alt="Unpublished Info Page" src="https://user-images.githubusercontent.com/55040326/178079007-2297702a-1790-47e4-96b4-a3c08faef486.png">
 
+Here the entries to be filled out are as follows:
 
-### ii) **All fields are empty.**
-When the auto-fill fails, all the text fields will appear empty. This means that it will be on you as the depositor to fill the text fields. You will also need to click the "Add +" button to create additional rows for articles that contain more than one compound. From there you will also need to fill the structures(SMILES) and drag and drop your zipped folders prepared in part 1.
+- Submission Type: New Submission or and In-progress submission
+- Article Title: The title of the unpublished article.
+- Email: An email you would like to be contacted at when you article is published.
+- Authors: A commas separated list of the authors of your article.
+- When would you like us to display the deposited data?: When embargo period ends, immediately, or once the article is published
 
-<img src="https://user-images.githubusercontent.com/55040326/162055817-e9d248d7-7ea9-47e7-bc42-f2264c27d1e0.png" alt="drawing" width="600"/>
+Once you complete this page and click next you will be taken to the first step in your deposition process.
 
-By now you should have filled all the text fields and dragged your prepared zip folders into their respective drop sections. Next you will want to hit the "Validate" button on the bottom right of the screen. The page should then start uploading your data. This may take a while and the progress can be found via the loading bar.
+## 3. Entering your Compound Info.
+This is the first step in the deposition process for both depositors with published and unpublished articles. On this page you will be prompted to enter info about the compounds you are depositing. The deposition software will also attempt to pre-fill this info for you if it is able to find your article.
 
-## 4. Validating your Data.
-Once the upload process is complete you will be presented with another page containing all of the compounds and experiments you have uploaded. (See image below)
+<img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/55040326/178080744-5e24573b-f0a9-4a97-a34d-c0c2cb9f76e1.png">
 
-<img src="https://user-images.githubusercontent.com/55040326/162261765-511f0981-0f53-494e-add3-5559edbef3e7.png" alt="drawing" width="600"/>
+Once the compound info is filled click next to proceed to the second step in your deposition process. Here you will be asked if you intend to deposit raw NMR data. If the answer is yes, see step 4.
 
-This page is intended for you to double check your submitted compounds and experiments. You should ensure that the displayed structures and experiments are valid and match what was submitted in the zip folder. If this is not the case then the "Modify" buttom will take you back to previouse page to alter your submission.
+## 4. Depositing Raw NMR Data.
+Below is an image of the raw nmr data deposition page. On this page you will see the compound info you entered paired with the structure of that compound and a deposition box. A deposition workflow should include:
+- Ensure your compound info matches the structure presented.
+- Drag and drop your prepared raw data zips into the corresponding boxes. (You may also click on the box to bring up the file explorer.)
+- Wait for the upload and check that no errors were presented.
+- Click submit to finalize your nmr submission.
 
+Note: All submissions are final so be sure to triple check your data before clicking the submit button.
 
-## 5. Submit!
-Once you are sure that all your data is correct you can go ahead and hit the "Submit" button to lock in your deposition.
+<img width="1311" alt="Depositing Raw NMR Data v1.2" src="https://user-images.githubusercontent.com/55040326/178318866-c595fe47-efeb-4928-8e12-22bd28b15e7e.png">
 
-<img src="https://user-images.githubusercontent.com/55040326/162262956-8c764b6e-bbd2-4443-b85b-7493c3d54dae.png" alt="drawing" width="600"/>
+Once this data is submitted you will be asked if you have any peak lists you would like to submit. If the answer is yes, see step 5.
 
-Congratulations! You have sucessfully completed you first deposition on the NP-MRD Deposition Platform. We hope that wasn't too tedious and that you'll come again when you publish your next paper.
+## 5. Submitting Peak List Data
+On this page you will see the compound info you entered, the structures, and some text boxes. If you have not done so on the nmr data page, please check over your structures and compound info to ensure correctness. After doing so you will need to copy and paste you peak lists into the text boxes and click "Validate".
 
+<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/55040326/178322118-f714630f-83d7-4e55-bd02-fd4e40cc24cd.png">
+
+From here you will most likely get many errors in reference to your peak lists. The format for which peak lists are accepted is quite strict so below is a guide to submitting sucessfully.
+
+### Peak List Formatting Guide
+
+When pasting your peak lists, make sure that the pasted content follows the below guidelines.
+
+#### 1. Must be in list format.
+- The peaks lists should be in some sort of list format with either , (commas) or ; (semicolons) as separators. 
+- Ex. 1,2,3,4,5
+
+#### 2. Only contains valid characters.
+- The submitted peak list must contain numerical digits or only characters found here: ( ) . , ; -
+
+#### 3. Overlapping peaks should be expressed as ranges.
+- To express a range use - (dashes) in between the min and max values.
+- Example of a list with a range: 1,2,3,5-7,8 OR 1,2,3,(5-7),8
+
+#### 4. The number of values should not exceed the number of atoms.
+- Ex. If your structure has 4 unique Hydrogen atoms, the H peak list should not exceed 4 in length.
+
+#### 5. The values should be within a reasonable range for the type of atom they are referencing.
+- Ex. If your peak list is a H peak list the values in the list should not exceed 20.
+
+If you have followed all the guidelines above then your peak lists should present green tables when you click "Validate". Once all the peak lists present green, you can go ahead an click the "Submit" button.
+
+# Congratulations!
+Your deposition has been completed! You should now be on the sucess page and see a check list of all the types of data you deposited. If you would like to make an changes from here please email support@npmrd-deposition.org. 
+
+Thank you for taking the time to deposit data with us! 

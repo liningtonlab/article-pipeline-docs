@@ -9,11 +9,11 @@ The npmrd-deposition takes NMR-data on a compound by compound basis. In other wo
 
 
 #### **Bruker**
-<img src="https://user-images.githubusercontent.com/55040326/162089179-123ab9f8-90e1-4de5-89a4-8a8f7ad60a3d.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/55040326/179577178-8e9bf3a1-a276-432c-8a7c-33bbcd7250b0.png" alt="drawing" width="800"/>
 
 
 #### **Varian**
-<img src="https://user-images.githubusercontent.com/55040326/162089387-1422a4b6-4d2a-441f-b3bc-cd605dbd48f0.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/55040326/179577688-d6727d48-d88e-4dc5-be72-ef1f828c0087.png" alt="drawing" width="800"/>
 
 
 #### **JEOL**

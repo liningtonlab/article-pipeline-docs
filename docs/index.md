@@ -35,6 +35,17 @@ Once you have confirmed the data is in the correct file structure, each folder m
 #### **MacOS**
 <img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
 
+
+### ii) **Getting SMILES strings for your compounds**
+SMILES strings can be easily generated through *ChemDraw*.
+    
+- Ensure that you have selected your *entire* compound using one of the selection tools (i.e. lasso, marquee, etc.)
+- In the ChemDraw toolbar at the top of your screen select Edit → Copy As → SMILES
+- The compound's SMILES string will now be copied to your clipboard
+
+<img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/35554126/179575694-180b74b5-7cfb-4f24-bf33-2d4aa383fd80.png">
+
+
 ## 2. Getting a deposition link.
 In order to deposit into the NPMRD, you must visit a submission link unique to your deposition. This link can be obtained in one of two ways depending on whether or not you have recieved an email from npmrd-deposition.org. Follow the instructions for the case that matches you.
 ### i) **I recieved an email.**

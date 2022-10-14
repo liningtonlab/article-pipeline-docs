@@ -1,20 +1,24 @@
 # Step 1: Compound Deposition
 
-# Error Messages
-1. [The Compound Information Form](#the-compound-information-form)
-    * [Filling Compound Information](#filling-compound-information)
-    * [Validating Compound Information](#validating-compound-information)
-    * [Submitting Compound Information](#submitting-compound-information)
-    * [Saving For Later](#saving-for-later)
-2. [Only Varian, JEOL, Bruker files are accepted](#error-only-varian-jeol-bruker-files-are-accepted)
+[The Compound Information Form](#the-compound-information-form)
+* [Filling Information](#filling-information)
+* [Validating](#validating)
+* [Submitting](#submitting)
+* [Saving For Later](#saving-for-later)
 
+[Troubleshooting and Additional Help](#troubleshooting-and-additional-help) 
 
-## The Compound Information Form
+* [Getting SMILES strings for your compounds](#getting-smiles-strings-for-your-compounds)
+* [Error: SMILEs String is Invalid](#error-smiles-string-is-invalid)
+
+</br>
+
+# The Compound Information Form
 This is the first step in the deposition process for depositors with published or unpublished articles. On this page you will be prompted to enter information about the compounds you are depositing (Compound Name, Genus, Species, and Canonical SMILES). If you are submitting compounds from a published paper our system will attempt to automatically pre-fill compound info for you if it is able to extract it from your paper's abstract (this currently works ~50% of the time).
 
 <br/>
 
-### *Filling Compound Information*
+## *Filling Information*
 <img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/35554126/195710956-a9172686-1c74-4350-81eb-afdbecffd52b.png">
 
 - Submitter Email is the email address that will be used to contact users regarding updates to their deposition. This field is optional if you are submitting compounds from a published article but not from a pre-submissions. Note that we never share email information with any 3rd parties.
@@ -35,7 +39,7 @@ This is the first step in the deposition process for depositors with published o
 <br/>
 
 
-### *Validating Compound Information*
+## *Validating*
 <img width="1271" alt="Compound Validation" src="https://user-images.githubusercontent.com/35554126/195714673-5b69e26b-fd7a-4924-81b9-103a9ac9ce34.png">
 
 - Clicking *Validate All* will cause our system to check if your information is valid. Any invalid compounds will have an associated error message displayed.
@@ -43,7 +47,7 @@ This is the first step in the deposition process for depositors with published o
 
 <br/>
 
-### *Submitting Compound Information*
+## *Submitting*
 Once the compound info is filled simply click *Submit* to proceed to the next step in the deposition process.
 
 - Any entered information will be saved in our servers. If there are any validation errors you cannot submit until they are resolved.
@@ -52,7 +56,7 @@ Once the compound info is filled simply click *Submit* to proceed to the next st
 
 <br/>
 
-### *Saving For Later*
+## *Saving For Later*
 If you wish to temporarily suspend the completion of your submission simply click *Save For Later*. Please note that only valid compounds may be saved to our system. Note that Saving will overwrite any previously submitted compounds for your submission.
 
 To resume your submission either...
@@ -62,10 +66,10 @@ To resume your submission either...
 
 <br/>
 
-## <u>Troubleshooting and Additional Help</u>
+# Troubleshooting and Additional Help
 
 
-### *Getting SMILES strings for your compounds*
+## *Getting SMILES strings for your compounds*
 The easiest way to generate SMILES strings for compounds is by using <a href="https://perkinelmerinformatics.com/products/research/chemdraw" target="_blank" >*ChemDraw*</a>.  
 
 1. Open or re-create your molecule in ChemDraw.
@@ -76,7 +80,7 @@ The easiest way to generate SMILES strings for compounds is by using <a href="ht
 <img width="800" alt="Get Chemdraw SMILES" src="https://user-images.githubusercontent.com/35554126/195706110-5fa6b74a-0720-4b33-936e-b2117c97de58.png">
 
 
-## **Error: SMILEs String is Invalid**
+## *Error: SMILEs String is Invalid*
 This message indicates that the SMILES you have entered is not a valid SMILES string. For instructions on how to generate SMILES strings for your compounds checkout out our [Quick User Guide](index.md)
 
 **Potential solutions:**

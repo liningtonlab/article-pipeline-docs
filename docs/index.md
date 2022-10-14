@@ -36,14 +36,7 @@ Once you have confirmed the data is in the correct file structure, each folder m
 <img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
 
 
-### ii) **Getting SMILES strings for your compounds**
-SMILES strings can be easily generated through *ChemDraw*.
-    
-- Ensure that you have selected your *entire* compound using one of the selection tools (i.e. lasso, marquee, etc.)
-- In the ChemDraw toolbar at the top of your screen select Edit → Copy As → SMILES
-- The compound's SMILES string will now be copied to your clipboard
 
-<img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/35554126/179575694-180b74b5-7cfb-4f24-bf33-2d4aa383fd80.png">
 
 
 ## 2. Getting a deposition link.
@@ -74,13 +67,6 @@ Here the entries to be filled out are as follows:
 - When would you like us to display the deposited data?: When embargo period ends, immediately, or once the article is published
 
 Once you complete this page and click next you will be taken to the first step in your deposition process.
-
-## 3. Entering your Compound Info.
-This is the first step in the deposition process for both depositors with published and unpublished articles. On this page you will be prompted to enter info about the compounds you are depositing. The deposition software will also attempt to pre-fill this info for you if it is able to find your article.
-
-<img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/55040326/178080744-5e24573b-f0a9-4a97-a34d-c0c2cb9f76e1.png">
-
-Once the compound info is filled click next to proceed to the second step in your deposition process. Here you will be asked if you intend to deposit raw NMR data. If the answer is yes, see step 4.
 
 ## 4. Depositing Raw NMR Data.
 Below is an image of the raw nmr data deposition page. On this page you will see the compound info you entered paired with the structure of that compound and a deposition box. A deposition workflow should include:

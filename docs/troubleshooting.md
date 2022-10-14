@@ -3,7 +3,7 @@
 Running into error messages when trying to upload your data? You've come to the right place! In this module we will go over all possible error messages delivered by the NP-MRD platform and what they could mean for you.
 
 # Error Messages
-1. [Please check your SMILES](#error-please-check-your-smiles)
+<!-- 1. [Please check your SMILES](#error-please-check-your-smiles) -->
 2. [Only Varian, JEOL, Bruker files are accepted](#error-only-varian-jeol-bruker-files-are-accepted)
 3. [Fid file is missing](#error-fid-file-missing)
 4. [.jdf is not supported](#error-jdf-is-not-supported)
@@ -12,16 +12,7 @@ Running into error messages when trying to upload your data? You've come to the 
 7. [Please make sure that the submission does not include nested zip_type file.](#error-please-make-sure-that-the-submission-does-not-include-nested-ziptype-file)
 
 
-## **Error: Please check your SMILES**
-This message indicates that the SMILES you have entered is not a valid SMILES string. For instructions on how to generate SMILES strings for your compounds checkout out our [Quick User Guide](index.md)
 
-**Potential solutions:**
-
-1. Check for (and delete) any non SMILES-valid characters in your strings.
-2. If the above doesn't do the trick, you can always re-create your SMILES using ChemDraw.
-3. Email us at support@npmrd-deposition.org.
-
-<img src="https://user-images.githubusercontent.com/55040326/162302799-8a56f0e4-b6f9-4ab5-bd77-d76a8dd4eceb.png" alt="drawing" width="800"/>
 
 ## **Error: Only Varian, JEOL, Bruker files are accepted**
 This is indicating that the webpage has not found NMR Data produced by one of the three manufacturers (Varian, JEOL, Bruker) in your zip file. 

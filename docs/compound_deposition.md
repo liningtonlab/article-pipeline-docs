@@ -1,4 +1,4 @@
-# Step 1: Compound Deposition
+# Step 2: Compound Deposition
 
 [The Compound Information Form](#the-compound-information-form)
 * [Filling Information](#filling-information)

@@ -1,4 +1,4 @@
-# Step 2: NMR Data Drag & Drop
+# Step 3: NMR Data Drag & Drop
 
 [Preparing Your Data For Upload](#preparing-your-data-for-upload)
 1. [What Kind of Data Can I Deposit?](#1-what-kind-of-data-can-i-deposit)

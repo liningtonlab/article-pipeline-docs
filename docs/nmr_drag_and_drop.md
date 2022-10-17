@@ -104,7 +104,7 @@ Some formats (.jdf, .mnova) are not accepted by our system but can be converted 
 and then export them all into one .jdx file by right clicking Pages tab and then clicking on "Select All".
 - Ensure that all of your experiments are still selected. Then export a .jdx by clicking File -> Save As and selecting JCAMP-DX as the file export type.
 
-<img src="https://user-images.githubusercontent.com/35554126/195957872-a3278931-be37-4301-ab61-c00c7a664086.png" alt="drawing"/>
+<img src="https://user-images.githubusercontent.com/35554126/196231380-650cebf2-46f7-47c1-9c51-f1c472ec2d77.png" alt="drawing"/>
 <img src="https://user-images.githubusercontent.com/35554126/195957877-946eca31-d9b6-49b7-b6c9-f0ab15c5841b.png" alt="drawing"/>
 
 </br>

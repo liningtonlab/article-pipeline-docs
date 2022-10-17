@@ -11,10 +11,15 @@
         - [.mnova](#mnova)
         - [.nmrML](#nmrml)
     - [Converting From Unsupported Formats](#converting-from-unsupported-formats)
-3. [Creating Zip File of Your Data](#2-folder-structure)
+3. [Zipping your data](#3-zipping-your-data)
 
 [Using The Drag & Drop Interface](#using-the-drag--drop-interface)
-* [Depositing NMR Data](#1-depositing-nmr-data)
+1. [Depositing NMR Data](#1-depositing-nmr-data)
+2. [Removing Uploaded NMR Files](#2-removing-uploaded-nmr-files)
+3. [Removing Compounds](#3-removing-compounds)
+4. [Validating](#4-validating)
+5. [Saving For Later](#5-saving-for-later)
+6. [Submitting](#6-submitting)
 
 [Troubleshooting and Additional Help](#troubleshooting-and-additional-help) 
 - [Error: Only Varian, JEOL, Bruker files are accepted](#error-only-varian-jeol-bruker-files-are-accepted)
@@ -31,8 +36,6 @@ NP-MRD is a database for the deposition and display of Nuclear Magnetic Resonanc
 In order to upload data to this platform NMR files containing experimental data must be organized in a standardized folder structure (which varies depending on the manufacturer of your NMR machine) and be compressed into a single archive format file (.zip, .rar, .7z, etc.).
 
 The Drag & Drop interface accepts NMR data on a <u>compound by compound</u> basis, meaning that each compound you submit data for must be uploaded in its own zip file which contains data for <u>each of the NMR experiments performed on that compound</u>. 
-
-<br><br/>
 
 ## *2) Folder Structure*
 Below are examples of the directory structure required for uploading data belonging to a <u> single compound</u>.
@@ -60,13 +63,14 @@ Some NMR formats are cannot currently be read directly by our system but can be 
 
 ### **.jdf**
 
+.jdf files cannot be read directly by our system, however, they can be converted to .jdx files (which are readable by our system) through one of a number of methods...
+
 *Potential solutions:*
 
-1. Convert the file to a .jdx format using JEOL Delta software. This is currently the only way we support submitting JEOL data. Once you have that .jdx file you can just zip that file into a folder by itself. That zip should now be depositable.
+1. Convert the file to a .jdx format using <a href="https://www.jeolusa.com/PRODUCTS/Nuclear-Magnetic-Resonance/Delta-NMR-Software" target="_blank" >*JEOL Delta software*</a>.
 2. [Convert your .jdf files to a .jdx file using MesReNova](#converting-to-jdx-using-mestrenova)
 
 
-<br><br/>
 
 ### **.mnova**
 Because our system is designed for to accept original, unprocessed NMR data. As such, .mnova files cannot be accepted directly.
@@ -75,8 +79,6 @@ Because our system is designed for to accept original, unprocessed NMR data. As 
 
 1. Zip the raw data folder instead. If available, raw data folders must include parameter and fid files.
 2. [Convert your .mnova file to a .jdx file using MesReNova](#converting-to-jdx-using-mestrenova)
-
-<br><br/>
 
 ### **.nmrML**
 
@@ -123,15 +125,44 @@ Once you have confirmed the data is in the correct file structure, each folder m
 # Using The Drag & Drop Interface
 
 ## *1) Depositing NMR Data*
-Below is an image of the raw nmr data deposition page. On this page you will see the compound info you entered paired with the structure of that compound and a deposition box. A deposition workflow should include:
-- Ensure your compound info matches the structure presented.
-- Drag and drop your prepared raw data zips into the corresponding boxes. (You may also click on the box to bring up the file explorer.)
-- Wait for the upload and check that no errors were presented.
-- Click submit to finalize your nmr submission.
+On the NMR Drag & Drop page you will see the compound info you entered paired and a deposition box.
 
-Note: All submissions are final so be sure to triple check your data before clicking the submit button.
+Once your NMR files are properly prepared and zipped you may begin uploading them.
+* Drag and drop your prepared raw data zips into the corresponding boxes. (You may also click on the box to bring up the file explorer.)
 
-<img width="1311" alt="Depositing Raw NMR Data v1.2" src="https://user-images.githubusercontent.com/55040326/178318866-c595fe47-efeb-4928-8e12-22bd28b15e7e.png">
+<img width="1311" alt="Depositing Raw NMR Data v1.2" src="https://user-images.githubusercontent.com/35554126/196299989-4d0ccc6e-a449-4ed2-864e-ca830765c2c6.png">
+
+* Wait for the upload and check that no errors were presented
+* If upload and processing is successful, the system will provide you a list of detected experiments
+
+<img width="1311" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300219-c2a2b2ba-26fd-432f-879b-36f375cb6eca.png">
+
+* Uploaded files will persist in a temporary cache our system until submitted. Unsubmitted files will be cleaned from our system approximately 6 hours from initial drag & drop. If you do not submit in this time you must re-upload all your NMR data.
+
+## *2) Removing Uploaded NMR Files*
+
+* If you wish to remove a file that you have uploaded you can either click the remove file button (the file with the minus) or simply drag & drop another file overtop of the box to upload it instead
+
+    <img width="1311" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300827-595cf4d3-102e-4ffc-a885-e105e49d1791.png">
+
+## *3) Removing Compounds*
+
+* If you've realized that you do not have the data for one of your compounds you may click "Back" to return to compound info submission page, remove the compound, and then resubmit your compound info to return to the drag & drop page. Files you've already uploaded for other compounds will not disappear if you go to another page.
+
+## *4) Validating*
+
+* Clicking "Validate All" will cause our system to check and inform you if your NMR data is ready to be submitted.
+
+## *5) Saving For Later*
+
+* Clicking "Save For Later" will inform you to bookmark the page if you wish to temporarily suspend your submission. You may resume by simply returning to the URL
+* For technical reasons any NMR files that have been uploaded but <u>that have not been submitted</u> will only persist in our system for approximately 6 hours before being cleaned. If you return after this period you may have to re-upload previously uploaded data
+
+## *6) Submitting*
+
+* All compounds must have valid NMR files uploaded in order to submit
+* Submitting will cause all uploaded files to be properly saved and stored in our system
+* Once you've submitted NMR data you may no longer alter your compound information or re-upload your NMR data so please double check before submitting
 
 # Troubleshooting and Additional Help
 

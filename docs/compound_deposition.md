@@ -11,12 +11,12 @@
 * [Getting SMILES strings for your compounds](#getting-smiles-strings-for-your-compounds)
 * [Error: SMILEs String is Invalid](#error-smiles-string-is-invalid)
 
-</br>
+<br><br/>
 
 # The Compound Information Form
 This is the first step in the deposition process for depositors with published or unpublished articles. On this page you will be prompted to enter information about the compounds you are depositing (Compound Name, Genus, Species, and Canonical SMILES). If you are submitting compounds from a published paper our system will attempt to automatically pre-fill compound info for you if it is able to extract it from your paper's abstract (this currently works ~50% of the time).
 
-<br/>
+<br><br/>
 
 ## *Filling Information*
 <img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/35554126/195710956-a9172686-1c74-4350-81eb-afdbecffd52b.png">
@@ -24,7 +24,7 @@ This is the first step in the deposition process for depositors with published o
 - Submitter Email is the email address that will be used to contact users regarding updates to their deposition. This field is optional if you are submitting compounds from a published article but not from a pre-submissions. Note that we never share email information with any 3rd parties.
 - Compound Name, Genus, and Species are optional for each compound. If you do not submit this information it will not be displayed on your NP-Card when it is published.
 
-<br />
+<br><br/>
 
 <img width="1271" alt="Copy Genus & Species" src="https://user-images.githubusercontent.com/35554126/195709930-16f3755c-cb8c-4ceb-8e3b-d7d892028b5e.png">
 
@@ -36,7 +36,7 @@ This is the first step in the deposition process for depositors with published o
 - Two or more compounds <u>cannot share the same SMILES string</u>. If your submission requires you to submit two compounds with the same SMILES strings please contact us directly (support@npmrd-deposition.org) or consider using one of our alternative deposition methods (https://np-mrd.org/submissions).
 
 
-<br/>
+<br><br/>
 
 
 ## *Validating*
@@ -45,7 +45,7 @@ This is the first step in the deposition process for depositors with published o
 - Clicking *Validate All* will cause our system to check if your information is valid. Any invalid compounds will have an associated error message displayed.
 - Validation is automatically run on all compounds upon submission.
 
-<br/>
+<br><br/>
 
 ## *Submitting*
 Once the compound info is filled simply click *Submit* to proceed to the next step in the deposition process.
@@ -54,7 +54,7 @@ Once the compound info is filled simply click *Submit* to proceed to the next st
 - Compound Information may be resubmitted as many times as the user wishes
 - You cannot resubmit compound information once you have uploaded NMR data for your submission. If you wish to re-start your submission please send us an email (support@npmrd-deposition.org). 
 
-<br/>
+<br><br/>
 
 ## *Saving For Later*
 If you wish to temporarily suspend the completion of your submission simply click *Save For Later*. Please note that only valid compounds may be saved to our system. Note that Saving will overwrite any previously submitted compounds for your submission.
@@ -64,7 +64,7 @@ To resume your submission either...
 - Bookmark the webpage's URL and re-open it when you wish to continue.
 - If you're submission corresponds to a published article you may simply re-enter your DOI on the deposition start page.
 
-<br/>
+<br><br/>
 
 # Troubleshooting and Additional Help
 

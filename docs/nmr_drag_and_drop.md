@@ -21,7 +21,7 @@
 - [Error: Fid file is missing](#error-fid-file-missing-or-in-invalid-location)
 - [Error: Ensure that the submission does not include nested zip file](#error-ensure-that-the-submission-does-not-include-nested-zip-file)
 
-</br>
+<br><br/>
 
 # Preparing Your Data For Upload
 
@@ -34,7 +34,7 @@ In order to upload data to this platform NMR files containing experimental data 
 
 The Drag & Drop interface accepts NMR data on a <u>compound by compound</u> basis, meaning that each compound you submit data for must be uploaded in its own zip file which contains data for <u>each of the NMR experiments performed on that compound</u>. 
 
-</br>
+<br><br/>
 
 ## *2) Folder Structure*
 Below are examples of the directory structure required for uploading data belonging to a <u> single compound</u>.
@@ -52,7 +52,7 @@ Our system is currently only designed to accept .jdx files and currently not sup
 
 <img src="https://user-images.githubusercontent.com/55040326/162089401-dcde0d95-4481-4604-8eea-2fb358bf947d.png" alt="drawing"/>
 
-</br>
+<br><br/>
 
 
 
@@ -60,7 +60,7 @@ Our system is currently only designed to accept .jdx files and currently not sup
 
 Some NMR formats are cannot currently be read directly by our system but can be submitted by first being converted to a supported format. 
 
-</br>
+<br><br/>
 
 ### **.jdf**
 
@@ -70,7 +70,7 @@ Some NMR formats are cannot currently be read directly by our system but can be 
 2. [Convert your .jdf files to a .jdx file using MesReNova](#converting-to-jdx-using-mestrenova)
 
 
-</br>
+<br><br/>
 
 ### **.mnova**
 Because our system is designed for to accept original, unprocessed NMR data. As such, .mnova files cannot be accepted directly.
@@ -80,7 +80,7 @@ Because our system is designed for to accept original, unprocessed NMR data. As 
 1. Zip the raw data folder instead. If available, raw data folders must include parameter and fid files.
 2. [Convert your .mnova file to a .jdx file using MesReNova](#converting-to-jdx-using-mestrenova)
 
-</br>
+<br><br/>
 
 ### **.nmrML**
 
@@ -89,7 +89,7 @@ Because our system is designed for to accept original, unprocessed NMR data. As 
 1. Zip the raw data folder instead. If available try zipping the raw data folders that include parameter and fid files.
 2. Email us at support@npmrd-deposition.org.
 
-</br>
+<br><br/>
 
 ## *Converting From Unsupported Formats*
 
@@ -106,7 +106,7 @@ and then export them all into one .jdx file by right clicking Pages tab and then
 <img src="https://user-images.githubusercontent.com/35554126/196231380-650cebf2-46f7-47c1-9c51-f1c472ec2d77.png" alt="drawing"/>
 <img src="https://user-images.githubusercontent.com/35554126/195957877-946eca31-d9b6-49b7-b6c9-f0ab15c5841b.png" alt="drawing"/>
 
-</br>
+<br><br/>
 
 ## *3) Zipping your data*
 Once you have confirmed the data is in the correct file structure, each folder must be zipped separately. This means that if you have three compounds you should zip each of them to produce three separate zip folders. For instruction on how to zip your compound folders for each operating system see below:
@@ -150,7 +150,7 @@ This is indicating that the webpage has not found NMR Data produced by one of th
 
 <img src="https://user-images.githubusercontent.com/55040326/162330960-e64253c8-d4a7-402b-b1d6-a95a70266899.png" alt="drawing" width="500"/>
 
-</br>
+<br><br/>
 
 ## *Error: Fid file missing or in invalid location*
 This indicates that there is a missing fid file from one of your experiments. Without this fid file we can not accept the data your are depositing.
@@ -160,7 +160,7 @@ This indicates that there is a missing fid file from one of your experiments. Wi
 1. Make sure that each experiment in the affected zip folder has a fid file or raw data file of some sort.
 2. Email us at support@npmrd-deposition.org.
 
-</br>
+<br><br/>
 
 ## *Error: Ensure that the submission does not include nested zip file*
 This error is letting you know that the zip file you submitted contains other compressed files within it. In other words, you have a zip file inside of a zip file. 

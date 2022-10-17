@@ -1,4 +1,4 @@
-# Quick User Guide
+# Step 0: Starting Your Deposition
 For those looking to deposit data with published or un-published articles, this guide will give you all the information you need to make a quick and easy deposition. 
 
 # Starting a Deposition

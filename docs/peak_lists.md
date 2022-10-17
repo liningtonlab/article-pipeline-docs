@@ -26,7 +26,7 @@ This page is for filling out the peak values for H and C of your compound. <u>Th
 
 <img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196280533-56846baf-72e9-481d-a1d7-8e358c8a4a81.png">
 
-<br></br>
+<br><br/>
 
 ## *Peak List Formatting Rules*
 
@@ -42,8 +42,10 @@ The same rules for filling out lists apply to both the C and H values. When subm
 
 * Multiplets can be represented as ranges containing the largest and smallest peak values. These ranges can be expressed by entering a dash "-" in between the min and max values. 
 * i.e. if you have a doublet you should enter both peak values. If you have a quartet you should enter the highest and lowest values. 
-
-* Ex. <pre> 10.18, <u>11.83-12.22</u>, 12.54, <u>13.44-13.65</u> </pre>
+* Ex.
+    ```
+    10.18, 11.83-12.22, 12.54, 13.44-13.65
+    ```
 
 
 ### *3) You may include brackets surrounding peaks or ranges*
@@ -52,7 +54,7 @@ The same rules for filling out lists apply to both the C and H values. When subm
 * Brackets do not effect how the system interprets entered values.
 * Ex. <pre> 10.18, <u>(11.83-12.22)</u>, <u>(12.54)</u>, 13.44-13.65 </pre>
 
-<br></br>
+<br><br/>
 
 ## *Peak List Formatting Warnings and Errors*
 
@@ -85,7 +87,7 @@ The same rules for filling out lists apply to both the C and H values. When subm
 
 If you have followed all the guidelines above then your peak lists should present green tables when you click "Validate". Once all the peak lists present green, you can go ahead an click the "Submit" button.
 
-<br></br>
+<br><br/>
 
 ## *Using The Peak List Interface*
 On the peak list submission page you will see the compound info you entered previously and some text boxes. The text boxes can be used to enter your peak lists for Carbon and Hydrogen atoms on a compound-by-compound basis.

@@ -1,8 +1,8 @@
 # Step 2: NMR Data Drag & Drop
 
 [Preparing Your Data For Upload](#preparing-your-data-for-upload)
-1. [What Kind of Data Can I Deposit?](#what-kind-of-data-can-i-deposit)
-2. [Folder Structure](#1-folder-structure)
+1. [What Kind of Data Can I Deposit?](#1-what-kind-of-data-can-i-deposit)
+2. [Folder Structure](#2-folder-structure)
     - [Bruker](#bruker)
     - [Varian](#varian)
     - [Jeol](#jeol)
@@ -14,8 +14,7 @@
 3. [Creating Zip File of Your Data](#2-folder-structure)
 
 [Using The Drag & Drop Interface](#using-the-drag--drop-interface)
-* [Submitting](#submitting)
-* [Saving For Later](#saving-for-later)
+* [Depositing NMR Data](#1-depositing-nmr-data)
 
 [Troubleshooting and Additional Help](#troubleshooting-and-additional-help) 
 - [Error: Only Varian, JEOL, Bruker files are accepted](#error-only-varian-jeol-bruker-files-are-accepted)
@@ -96,7 +95,7 @@ Because our system is designed for to accept original, unprocessed NMR data. As 
 
 
 ### **Converting To .jdx Using MestReNova**
-Some formats (.jdf, .mnova) are not accepted by our system but can be converted to .jdx files which can be read by our system. If your NMR data files require conversion please follow these steps...
+Some formats (.jdf, .mnova) cannot be processed by our system but can be converted to a .jdx file which is accepted. If your NMR data files require conversion please follow these steps...
 
 - **IF CONVERTING FROM .jdf**: Each .jdf file contains only a single experiment so you must first open all files in a one Mnova instance. You can do this by selecting all of your files and dragging them into an empty MestReNova window.
 - **IF CONVERTING FROM .mnova**: Open your .mnova file in a MestReNova window.
@@ -109,7 +108,7 @@ and then export them all into one .jdx file by right clicking Pages tab and then
 
 </br>
 
-## **3) Zipping your data**
+## *3) Zipping your data*
 Once you have confirmed the data is in the correct file structure, each folder must be zipped separately. This means that if you have three compounds you should zip each of them to produce three separate zip folders. For instruction on how to zip your compound folders for each operating system see below:
 
 
@@ -127,6 +126,16 @@ Once you have confirmed the data is in the correct file structure, each folder m
 
 # Using The Drag & Drop Interface
 
+## *1) Depositing NMR Data*
+Below is an image of the raw nmr data deposition page. On this page you will see the compound info you entered paired with the structure of that compound and a deposition box. A deposition workflow should include:
+- Ensure your compound info matches the structure presented.
+- Drag and drop your prepared raw data zips into the corresponding boxes. (You may also click on the box to bring up the file explorer.)
+- Wait for the upload and check that no errors were presented.
+- Click submit to finalize your nmr submission.
+
+Note: All submissions are final so be sure to triple check your data before clicking the submit button.
+
+<img width="1311" alt="Depositing Raw NMR Data v1.2" src="https://user-images.githubusercontent.com/55040326/178318866-c595fe47-efeb-4928-8e12-22bd28b15e7e.png">
 
 # Troubleshooting and Additional Help
 

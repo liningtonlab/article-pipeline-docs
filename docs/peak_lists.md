@@ -1,4 +1,4 @@
-# Step 3: Peak Lists
+# Step 4: Peak Lists
 
 ## 1. Submitting Peak List Data
 On this page you will see the compound info you entered, the structures, and some text boxes. If you have not done so on the nmr data page, please check over your structures and compound info to ensure correctness. After doing so you will need to copy and paste you peak lists into the text boxes and click "Validate".

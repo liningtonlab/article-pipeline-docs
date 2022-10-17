@@ -84,5 +84,3 @@ This message indicates that the SMILES you have entered is not a valid SMILES st
 1. Check for (and delete) any non SMILES-valid characters in your strings. For more information on which characters are valid in canonical SMILES please <a href="https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system#Description" target="_blank" >*click here*</a>.  
 2. If the above doesn't do the trick, you can always re-create your SMILES using ChemDraw.
 3. Email us at support@npmrd-deposition.org.
-
-<img src="https://user-images.githubusercontent.com/55040326/162302799-8a56f0e4-b6f9-4ab5-bd77-d76a8dd4eceb.png" alt="drawing" width="800"/>

@@ -1,31 +1,123 @@
 # Step 4: Peak Lists
 
-## 1. Submitting Peak List Data
-On this page you will see the compound info you entered, the structures, and some text boxes. If you have not done so on the nmr data page, please check over your structures and compound info to ensure correctness. After doing so you will need to copy and paste you peak lists into the text boxes and click "Validate".
+[Peak List Formatting](#peak-list-formatting)
 
-<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/55040326/178322118-f714630f-83d7-4e55-bd02-fd4e40cc24cd.png">
+* [Peak List Formatting Rules](#peak-list-formatting-rules)
+    1. [Peaks must be separated by commas or semicolons](#1-peaks-must-be-separated-by-commas-or-semicolons)
+    2. [Multiplets should be represented as ranges connected by dashes](#2-multiplets-should-be-represented-as-ranges-connected-by-dashes)
+    3. [You may include brackets surrounding peaks or ranges](#3-you-may-include-brackets-surrounding-peaks-or-ranges)
+* [Peak List Formatting Warnings and Errors](#peak-list-formatting-warnings-and-errors)
+    1. [The number of values should not exceed the number of atoms](#1-the-number-of-values-should-not-exceed-the-number-of-atoms)
+    2. [The values should be within a reasonable range for the type of atom they are referencing](#2-the-values-should-be-within-a-reasonable-range-for-the-type-of-atom-they-are-referencing)
+    3. [Lists must only contain valid characters](#3-lists-must-only-contain-valid-characters)
+    4. [A peak list may be submitted for only C or H](#4-a-peak-list-may-be-submitted-for-only-c-or-h)
 
-From here you will most likely get many errors in reference to your peak lists. The format for which peak lists are accepted is quite strict so below is a guide to submitting sucessfully.
+[Using The Peak List Interface](#using-the-peak-list-interface)
 
-### Peak List Formatting Guide
+* [Skipping peak list submission for specific compounds](#skipping-peak-list-submission-for-specific-compounds) 
+* [Validating](#validating) 
+* [Saving For Later](#saving-for-later) 
+* [Submitting](#submitting) 
 
-When pasting your peak lists, make sure that the pasted content follows the below guidelines.
 
-#### 1. Must be in list format.
-- The peaks lists should be in some sort of list format with either , (commas) or ; (semicolons) as separators. 
-- Ex. 1,2,3,4,5
+# Peak List Formatting
+This page is for filling out the peak values for H and C of your compound. <u>This platform does not accept assignment information</u> so you do not need to submit coupling information while submitting your list.
 
-#### 2. Only contains valid characters.
-- The submitted peak list must contain numerical digits or only characters found here: ( ) . , ; -
 
-#### 3. Overlapping peaks should be expressed as ranges.
-- To express a range use - (dashes) in between the min and max values.
-- Example of a list with a range: 1,2,3,5-7,8 OR 1,2,3,(5-7),8
+<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196280533-56846baf-72e9-481d-a1d7-8e358c8a4a81.png">
 
-#### 4. The number of values should not exceed the number of atoms.
-- Ex. If your structure has 4 unique Hydrogen atoms, the H peak list should not exceed 4 in length.
+<br></br>
 
-#### 5. The values should be within a reasonable range for the type of atom they are referencing.
-- Ex. If your peak list is a H peak list the values in the list should not exceed 20.
+## *Peak List Formatting Rules*
+
+The same rules for filling out lists apply to both the C and H values. When submitting your peak lists, they must match the following formatting stipulations...
+
+### *1) Peaks must be separated by commas or semicolons*
+
+* Individual peak value must be separated each other by either commas "," or semicolons ";"
+
+* Ex. <pre> 10.18, 11.70, 12.54, 13.26 </pre><pre> 10.18; 11.70; 12.54; 13.26 </pre>
+
+### *2) Multiplets should be represented as ranges connected by dashes*
+
+* Multiplets can be represented as ranges containing the largest and smallest peak values. These ranges can be expressed by entering a dash "-" in between the min and max values. 
+* i.e. if you have a doublet you should enter both peak values. If you have a quartet you should enter the highest and lowest values. 
+
+* Ex. <pre> 10.18, <u>11.83-12.22</u>, 12.54, <u>13.44-13.65</u> </pre>
+
+
+### *3) You may include brackets surrounding peaks or ranges*
+
+* A single peak or range contained in round brackets is a valid input. Adding brackets can make your values easier to read.
+* Brackets do not effect how the system interprets entered values.
+* Ex. <pre> 10.18, <u>(11.83-12.22)</u>, <u>(12.54)</u>, 13.44-13.65 </pre>
+
+<br></br>
+
+## *Peak List Formatting Warnings and Errors*
+
+### *1) The number of values should not exceed the number of atoms*
+
+* i.e. If your structure has 4 unique Hydrogen atoms, the H peak list should not exceed 4 in length.
+* Submitting excess values will throw an "Invalid number of atoms in peak list" error.
+
+### *2) The values should be within a reasonable range for the type of atom they are referencing*
+
+* Values outside of <u>accepted</u> ranges will throw an error and <u>are <b>not</b> valid to submit</u>.
+     <img width="450" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196290258-2973ce54-97d5-4135-b76c-5b679027ff09.png">
+
+* i.e. values in your H peak list should not be less than -2 or exceed 20.
+
+* Values outside of <u>expected</u> ranges will throw a warning but <u>are still valid to submit</u>.
+     <img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196289658-4977d964-5066-4b39-8d06-0b6e99eb0434.png">
+
+### *3) Lists must only contain valid characters*
+
+* The submitted peak list may only contain...
+    * Numerical digits
+    * The following characters: ( ) . , ; -
+* Entering any other characters will throw an error.
+
+### *4) A peak list may be submitted for only C or H*
+* You are not required to submit C and H peak lists for each compound.
+* This will throw a warning, however, submitting a peak list for only one C or only H is valid.
+
 
 If you have followed all the guidelines above then your peak lists should present green tables when you click "Validate". Once all the peak lists present green, you can go ahead an click the "Submit" button.
+
+<br></br>
+
+## *Using The Peak List Interface*
+On the peak list submission page you will see the compound info you entered previously and some text boxes. The text boxes can be used to enter your peak lists for Carbon and Hydrogen atoms on a compound-by-compound basis.
+
+<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196254449-999da545-ca28-4039-b04c-3b9dc7fa135b.png">
+
+
+### *Skipping peak list submission for specific compounds*
+
+* You can opt out of submitting a peak list for a specific compound by checking the skip box at any point.
+
+    <img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196293502-a2318dd0-1813-4589-93c0-a45f804e7835.png">
+
+
+### *Validating*
+
+* Clicking the validate button will cause our system to check if your submitted list is valid and provide you with immediate feedback underneath each compound
+* You must validate <u>with no Errors (red)</u> before submitting
+* Lists that throw warnings (yellow) or provide feedback information (blue) are still valid to submit
+
+<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196297095-81ac14f0-88b9-468f-82e2-5ca3966316eb.png">
+<img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196297177-93034c66-d4e3-4b56-89a4-969d7f746cf7.png">
+    
+
+### *Saving For Later*
+
+* Clicking "Save For Later" will cause your currently entered peak lists to be saved into our system
+* You may resume your submission later by bookmarking the page and returning to it
+* You cannot save if your entries are not valid
+* Saving will overwrite any peak lists that you have previously submitted or save for your submission
+* The formatting and order of your list strings will not be preserved upon saving
+
+### *Submitting*
+
+* Clicking submit will cause the system to validate. If it is valid you may proceed to the next step and your peak lists will be saved in our servers.

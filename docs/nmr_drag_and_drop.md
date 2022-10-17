@@ -21,8 +21,6 @@
 - [Error: Fid file is missing](#error-fid-file-missing-or-in-invalid-location)
 - [Error: Ensure that the submission does not include nested zip file](#error-ensure-that-the-submission-does-not-include-nested-zip-file)
 
-<br><br/>
-
 # Preparing Your Data For Upload
 
 
@@ -59,8 +57,6 @@ Our system is currently only designed to accept .jdx files and currently not sup
 ## *Formats That Require Additional Preparation*
 
 Some NMR formats are cannot currently be read directly by our system but can be submitted by first being converted to a supported format. 
-
-<br><br/>
 
 ### **.jdf**
 

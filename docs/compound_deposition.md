@@ -11,12 +11,8 @@
 * [Getting SMILES strings for your compounds](#getting-smiles-strings-for-your-compounds)
 * [Error: SMILEs String is Invalid](#error-smiles-string-is-invalid)
 
-<br><br/>
-
 # The Compound Information Form
 This is the first step in the deposition process for depositors with published or unpublished articles. On this page you will be prompted to enter information about the compounds you are depositing (Compound Name, Genus, Species, and Canonical SMILES). If you are submitting compounds from a published paper our system will attempt to automatically pre-fill compound info for you if it is able to extract it from your paper's abstract (this currently works ~50% of the time).
-
-<br><br/>
 
 ## *Filling Information*
 <img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/35554126/195710956-a9172686-1c74-4350-81eb-afdbecffd52b.png">
@@ -81,7 +77,7 @@ The easiest way to generate SMILES strings for compounds is by using <a href="ht
 
 
 ## *Error: SMILEs String is Invalid*
-This message indicates that the SMILES you have entered is not a valid SMILES string. For instructions on how to generate SMILES strings for your compounds checkout out our [Quick User Guide](index.md)
+This message indicates that the SMILES you have entered is not a valid SMILES string.
 
 **Potential solutions:**
 

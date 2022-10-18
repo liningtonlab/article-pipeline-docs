@@ -36,7 +36,13 @@ The same rules for filling out lists apply to both the C and H values. When subm
 
 * Individual peak value must be separated each other by either commas "," or semicolons ";"
 
-* Ex. <pre> 10.18, 11.70, 12.54, 13.26 </pre><pre> 10.18; 11.70; 12.54; 13.26 </pre>
+* Ex. 
+    ```
+    10.18, 11.70, 12.54, 13.26
+    ```
+    ```
+    10.18; 11.70; 12.54; 13.26
+    ```
 
 ### *2) Multiplets should be represented as ranges connected by dashes*
 
@@ -52,7 +58,10 @@ The same rules for filling out lists apply to both the C and H values. When subm
 
 * A single peak or range contained in round brackets is a valid input. Adding brackets can make your values easier to read.
 * Brackets do not effect how the system interprets entered values.
-* Ex. <pre> 10.18, <u>(11.83-12.22)</u>, <u>(12.54)</u>, 13.44-13.65 </pre>
+* Ex.
+    ```
+    10.18, (11.83-12.22), (12.54), 13.44-13.65
+    ```
 
 <br><br/>
 

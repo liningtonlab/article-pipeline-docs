@@ -80,7 +80,7 @@ The same rules for filling out lists apply to both the C and H values. When subm
 * i.e. values in your H peak list should not be less than -2 or exceed 20.
 
 * Values outside of <u>expected</u> ranges will throw a warning but <u>are still valid to submit</u>.
-     <img width="1290" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196289658-4977d964-5066-4b39-8d06-0b6e99eb0434.png">
+     <img width="600" alt="Peak List Submission" src="https://user-images.githubusercontent.com/35554126/196289658-4977d964-5066-4b39-8d06-0b6e99eb0434.png">
 
 ### *3) Lists must only contain valid characters*
 

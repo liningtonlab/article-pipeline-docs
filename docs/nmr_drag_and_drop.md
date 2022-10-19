@@ -101,8 +101,8 @@ Some formats (.jdf, .mnova) cannot be processed by our system but can be convert
 and then export them all into one .jdx file by right clicking Pages tab and then clicking on "Select All".
 - Ensure that all of your experiments are still selected. Then export a .jdx by clicking File -> Save As and selecting JCAMP-DX as the file export type.
 
-<img src="https://user-images.githubusercontent.com/35554126/196231380-650cebf2-46f7-47c1-9c51-f1c472ec2d77.png" alt="drawing"/>
-<img src="https://user-images.githubusercontent.com/35554126/195957877-946eca31-d9b6-49b7-b6c9-f0ab15c5841b.png" alt="drawing"/>
+<img src="https://user-images.githubusercontent.com/35554126/196750444-92f29b62-d3c5-4e49-953d-814dee796886.png" alt="mnova_convert_1"/>
+<img src="https://user-images.githubusercontent.com/35554126/196750459-852d088e-251c-4597-a442-03bda4eb7dd9.png" alt="mnova_convert_2"/>
 
 <br><br/>
 
@@ -143,7 +143,7 @@ Once your NMR files are properly prepared and zipped you may begin uploading the
 
 * If you wish to remove a file that you have uploaded you can either click the remove file button (the file with the minus) or simply drag & drop another file overtop of the box to upload it instead
 
-    <img width="1311" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300827-595cf4d3-102e-4ffc-a885-e105e49d1791.png">
+    <img width="550" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300827-595cf4d3-102e-4ffc-a885-e105e49d1791.png">
 
 ## *3) Removing Compounds*
 

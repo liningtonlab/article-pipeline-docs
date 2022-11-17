@@ -36,7 +36,7 @@ Publications typically report NMR data for natural products as NMR data tables, 
 
 ### Are scientific journals mandating raw data upload with publication?
 
-Some scientific journals are beginning to ask for raw data deposition and data availabilty statements with publication. As the natural products community adapts to this change, NP-MRD is equipped to meet all the requirements set by journals and support your research. 
+Some scientific journals are beginning to ask for raw data deposition and data availability statements with publication. As the natural products community adapts to this change, NP-MRD is equipped to meet all the requirements set by journals and support your research. 
 
 ## Deposit Data
 
@@ -56,7 +56,7 @@ Yes, you can upload data for compounds that already exist in our database. We ho
 
 If you synthesize a true natural product and acquire NMR data, you may upload the data for this structure. Synthetic derivatives or non-natural products, however, are not currently accepted in the NP-MRD. We kindly ask that you deposit compounds of this type on another platform.  
 
-### Can I uplaod compounds that are isolated from a natural product co-culture experiment?
+### Can I upload compounds that are isolated from a natural product co-culture experiment?
 
 Yes, you can deposit compounds from a natural product combined culture experiment. We ask that you input the information for all, or both of the genera and species used for isolation, respectively. 
 

@@ -1,5 +1,7 @@
 # FAQ
 
+<br>
+
 ## About NP-MRD 
 
 ### What is the NP-MRD?
@@ -38,6 +40,8 @@ Publications typically report NMR data for natural products as NMR data tables, 
 
 Some scientific journals are beginning to ask for raw data deposition and data availability statements with publication. As the natural products community adapts to this change, NP-MRD is equipped to meet all the requirements set by journals and support your research. 
 
+<br>
+
 ## Deposit Data
 
 ### How to use NP-MRD deposition platform
@@ -64,6 +68,8 @@ Yes, you can deposit compounds from a natural product combined culture experimen
 
 Yes, if you synthesize a true natural product and acquire NMR data, you may upload the data for this structure. Synthetic natural product data are useful to confirm or reassign compound structures.
 
+<br>
+
 ## Compound Data 
 
 ### What are SMILES?
@@ -83,6 +89,8 @@ Though mixtures are not currently supported in the drag-and-drop deposition plat
 
 If you do not know the genus of your natural product, you may input the nearest known taxonomic identifier e.g., family, class, etc. 
 
+<br>
+
 ## Unpublished Data
 
 ### Can I deposit data related to a paper has been submitted to a journal for review, but is not yet published?
@@ -92,6 +100,8 @@ Yes, you can deposit this data under the 'Deposit Data from an ‘UNPUBLISHED ar
 ### What can I set as the embargo period if I don’t know when my paper will be published?
 
 If you do not want your data online prior to publication, you may select to ‘Display Data Online Only After Article is Published’. You may attach the DOI once the paper is published, using the link provided in the confirmation email. The system will also track the literature for your publication based on the details provided in the presubmission.
+
+<br>
 
 ## Data Privacy 
 

@@ -42,7 +42,7 @@ Some scientific journals are beginning to ask for raw data deposition and data a
 
 ### How to use NP-MRD deposition platform
 
-The NP-MRD deposition platform is a quick and easy way to upload your data to a public repository. For an in-depth tutorial on how to use our platform, visit the instructions page and see the documentation for 'Starting Your Deposition'.
+The NP-MRD deposition platform is a quick and easy way to upload your data to a public repository. For an in-depth tutorial on how to use our platform, visit the instructions page on the deposition home page, and see the documentation for 'Starting Your Deposition'.
 
 ### What compounds can I upload?
 

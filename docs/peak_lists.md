@@ -6,6 +6,8 @@
     1. [Peaks must be separated by commas or semicolons](#1-peaks-must-be-separated-by-commas-or-semicolons)
     2. [Multiplets should be represented as ranges connected by dashes](#2-multiplets-should-be-represented-as-ranges-connected-by-dashes)
     3. [You may include brackets surrounding peaks or ranges](#3-you-may-include-brackets-surrounding-peaks-or-ranges)
+* [Obtaining A Peak List](#obtaining-a-peak-list)
+    1. [Obtaining your peak list from MestReNova](#1-obtaining-your-peak-list-from-mestrenova)
 * [Peak List Formatting Warnings and Errors](#peak-list-formatting-warnings-and-errors)
     1. [The number of values should not exceed the number of atoms](#1-the-number-of-values-should-not-exceed-the-number-of-atoms)
     2. [The values should be within a reasonable range for the type of atom they are referencing](#2-the-values-should-be-within-a-reasonable-range-for-the-type-of-atom-they-are-referencing)
@@ -61,6 +63,39 @@ The same rules for filling out lists apply to both the C and H values. When subm
 * Ex.
     ```
     10.18, (11.83-12.22), (12.54), 13.44-13.65
+    ```
+
+<br><br/>
+
+## *Obtaining A Peak List*
+
+### *1) Obtaining your peak list from MestReNova*
+
+Open your spectra in MestReNova software.
+
+<img width="600" alt="Peak List Submission" src="https://user-images.githubusercontent.com/97136130/202319845-dedd8e1d-3c12-463b-9481-58f6c0fa0b7a.png">
+
+Under the NMR ‘Analysis’ tab, you will have the option to peak pick and interpret your data. Select the ‘Manual Peak Pick’ option and use the cursor to manually select the peaks of interest in your spectra.
+
+<img width="600" alt="Peak List Submission" src="https://user-images.githubusercontent.com/97136130/202319859-3ad7352d-ae6c-492c-ad33-300cfd34fdeb.png">
+
+Once you have selected all the appropriate peaks you can generate the peak list. To do so, select the option ‘Report Peaks’.
+
+<img width="600" alt="Peak List Submission" src="https://user-images.githubusercontent.com/97136130/202319879-d438e020-774c-45c9-ac6c-65e790690841.png">
+
+This will generate the list seen in the image, which is as follows: 
+
+```
+1H NMR (600 MHz, pyridine) δ 7.50, 6.34, 5.98, 5.36, 4.84, 4.48, 4.22, 3.12, 2.67, 2.39, 1.65, 1.43, 0.82, 0.49.
+```
+
+<img width="600" alt="Peak List Submission" src="https://user-images.githubusercontent.com/97136130/202319897-c2677482-7d0b-4cc1-aa8f-c6a1e4faf72c.png">
+
+Remove the prefix metadata and submit only the peak values (comma separated) for your peak list. An example of an acceptable peak list can be seen below: 
+
+* Accepted peak list:
+    ```
+    7.50, 6.34, 5.98, 5.36, 4.84, 4.48, 4.22, 3.12, 2.67, 2.39, 1.65, 1.43, 0.82, 0.49
     ```
 
 <br><br/>

@@ -56,7 +56,7 @@ Yes, you can upload data for compounds that already exist in our database. We ho
 
 If you synthesize a true natural product and acquire NMR data, you may upload the data for this structure. Synthetic derivatives or non-natural products, however, are not currently accepted in the NP-MRD. We kindly ask that you deposit compounds of this type on another platform.  
 
-### My compounds are from a natural product co-culture experiment. Can I upload these?
+### Can I uplaod compounds that are isolated from a natural product co-culture experiment?
 
 Yes, you can deposit compounds from a natural product combined culture experiment. We ask that you input the information for all, or both of the genera and species used for isolation, respectively. 
 
@@ -71,25 +71,25 @@ Yes, if you synthesize a true natural product and acquire NMR data, you may uplo
 SMILES, (Simplified Molecular Input Line Entry System) is the chemical notation used to describe a compound's structure. This code allows users to represent a chemical structure in a computer-readable way. 
 You can get the SMILES of a structure using ChemDraw, ChemSketch or any other molecule drawing software. Then simply draw your structure on the draw pad and copy this as 'SMILES'. 
 
-### What experimental spectra should I include in my upload?
+### What experimental spectra can I include in my upload?
 
 You may upload all NMR experiments used in the characterization of the natural product compounds in your study. We accept all experiment types including 1D and 2D. These can be zipped into one folder for each compound.
 
-### I have data for a mixture. Can I upload this?
+### Can I upload data a mixture?
 
 Though mixtures are not currently supported in the drag-and-drop deposition platform, you may upload your mixture using ‘Option 4’ of the NP-MRD deposition service. See https://np-mrd.org/submissions
 
-### I do not know the genus of the source from which I isolated the compound. What taxonomic identifier will I use?
+### What taxonomic identifier can I use I do not know the genus/species of the source from which I isolated the compound?
 
 If you do not know the genus of your natural product, you may input the nearest known taxonomic identifier e.g., family, class, etc. 
 
 ## Unpublished Data
 
-### My paper has been submitted to a journal for review, but it is not yet published. Can I deposit this data?
+### Can I deposit data related to a paper has been submitted to a journal for review, but is not yet published?
 
 Yes, you can deposit this data under the 'Deposit Data from an ‘UNPUBLISHED article’ option. You are required to add details of the publication and set an embargo period for when you would like this data to be displayed on NP-MRD. 
 
-### I don’t know when my paper will be published. What can I set as the embargo period?
+### What can I set as the embargo period if I don’t know when my paper will be published?
 
 If you do not want your data online prior to publication, you may select to ‘Display Data Online Only After Article is Published’. You may attach the DOI once the paper is published, using the link provided in the confirmation email. The system will also track the literature for your publication based on the details provided in the presubmission.
 
@@ -103,12 +103,16 @@ If you deposit any data and wish to retract the same, you may contact us immedia
 
 ### Will NP-MRD provide a Data Availability Statement?
 
-Yes, you will receive a Data Availability Statement via confirmation email within 24 hours of deposition. This will display a report of the data uploaded, summarizing compound information and spectra.
+Yes, you will receive a Data Availability Statement via confirmation email within 24 hours of deposition. This will include a report of the data uploaded, summarizing compound information and spectra, and the accession number for your deposition. 
 
 ### Where can I find the NP-MRD accession number of my deposition?
 
+The Deposition ID is found in the completed submission confirmation email you receive within 24 hours of successful deposition. This can be used as the data availability accession number, if required.
+
+### Where can I find the NP-MRD ID of my compound?
+
 The NP-MRD ID can be found on the NP card for your compound. This accession number is displayed in brackets next to the compound name and under the Record Information section of the NP card. Other accession numbers are displayed as appropriate.  
 
-### I made a mistake in my deposition. What can I do?
+### What can I do if I made a mistake in my deposition?
 
 If you made a mistake or deposited data in error, please contact the NP-MRD team as soon as possible so our team can intercept the data and reset the submission link, allowing you to deposit again and correct any errors. 

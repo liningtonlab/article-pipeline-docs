@@ -17,7 +17,7 @@ This is the first step in the deposition process for depositors with published o
 ## *Filling Information*
 <img width="1271" alt="Enter Compound Info" src="https://user-images.githubusercontent.com/35554126/195710956-a9172686-1c74-4350-81eb-afdbecffd52b.png">
 
-- Submitter Email is the email address that will be used to contact users regarding updates to their deposition. This field is optional if you are submitting compounds from a published article but not from a pre-submissions. Note that we never share email information with any 3rd parties.
+- Submitter Email is the email address that will be used to contact users regarding updates to their deposition. This field is optional if you are submitting compounds from a published article but not from a presubmissions. Note that we never share email information with any 3rd parties.
 - Compound Name, Genus, and Species are optional for each compound. If you do not submit this information it will not be displayed on your NP-Card when it is published.
 
 <br><br/>

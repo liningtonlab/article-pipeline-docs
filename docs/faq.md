@@ -26,3 +26,7 @@ Over the last 50 years, researchers have obtained NMR data on hundreds of thousa
 ## Why is depositing data different than reporting the NMR data in a paper?
 
 Publications typically report NMR data for natural products as NMR data tables, or as images of spectra in the Supporting Information. In both cases, significant information is lost compared to the information contained in the original raw free-induction decay (FID). Depositing the original data ensures that these data are maintained and permanently accessible to the research community. 
+
+## I've completed my submission, where is my data?
+
+Publishing data from drag & drop submissions in our database is not an immediate process. For more information check out our [Data Publishing and Sharing](./data_publishing_and_sharing.md) instructions.

@@ -2,7 +2,7 @@
   * [From Submission to NP Card](#from-submission-to-np-card)
   * [When Data Published in the Database](#when-data-published-in-the-database)
     + [When Data From a Published Article or Private Deposition Is Published](#when-data-from-a-published-article-or-private-deposition-is-published)
-    + [When Data From a Pre-submission Is Published](#when-data-from-a-pre-submission-is-published)
+    + [When Data From a Presubmission Is Published](#when-data-from-a-presubmission-is-published)
       - [Publish Immediately](#publish-immediately)
       - [Display Only After Embargo Period Ends](#display-only-after-embargo-period-ends)
       - [Display Only After Article Is Published](#display-only-after-article-is-published)
@@ -35,7 +35,7 @@
 
 - Data submitted for a published article will be published as soon as possible following completion of the submission.
 
-### When Data From a Pre-submission Is Published
+### When Data From a Presubmission Is Published
 
 - The embargo date of a pre-deposition or private deposition is initially set when beginning a submission. Data from these submissions is published following the expiration of this embargo data.
 

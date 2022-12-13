@@ -114,8 +114,3 @@
 - If you did not include NMR data in your submission <u>AND it has not gone live in our database yet</u> then we will not be able to provide you with a download link.
 
 <img src="https://user-images.githubusercontent.com/35554126/207126993-5e696354-5e16-4886-88c8-7eeddbb7d8ab.png" alt="drawing" width="800"/>
-
-
-## Changing Your Access Submission Data Link
-
-- If you require your link to be changed to a different value please contact us directly (support@npmrd-deposition.org). **Once your link has been changed the previous one will no longer work**.

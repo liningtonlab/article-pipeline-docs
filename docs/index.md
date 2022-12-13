@@ -7,4 +7,5 @@ Please see below links to instructions for each of the different steps in the de
 - [2) Compound Deposition](./compound_deposition.md)
 - [3) NMR Drag & Drop](./nmr_drag_and_drop.md)
 - [4) Peak List Submission](./peak_lists.md)
+- [Data Publishing and Sharing](./data_publishing_and_sharing.md)
 - [FAQ](./faq.md)

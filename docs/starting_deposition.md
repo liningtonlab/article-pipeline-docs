@@ -18,7 +18,7 @@ To get to a deposition page you will need to submit your doi through the deposit
 
 Once you submit the doi, you should be brought to your unique deposition link.
 
-#### 2. My data is from an UNPUBLISHED article.
+#### 2. Presubmission - my data is from an UNPUBLISHED article.
 To get to your deposition page from here you will have to select the UNPUBLISHED option on the [front page](http://npmrd-deposition.org/). This will take you to another page where you will be prompted to enter information about your unpublished article.
 
 <img width="1327" alt="Unpublished Info Page" src="https://user-images.githubusercontent.com/55040326/178079007-2297702a-1790-47e4-96b4-a3c08faef486.png">

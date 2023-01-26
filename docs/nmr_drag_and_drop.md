@@ -38,7 +38,14 @@ In order to upload data to this platform NMR files containing experimental data 
 The Drag & Drop interface accepts NMR data on a <u>compound by compound</u> basis, meaning that each compound you submit data for must be uploaded in its own zip file which contains data for <u>each of the NMR experiments performed on that compound</u>. 
 
 ## *2) Folder Structure*
-Below are examples of the directory structure required for uploading data belonging to a <u> single compound</u>.
+When uploading data for a <u>single compound</u> please adhere to the following instructions.
+
+- The system accepts one zip file per compound
+- All experimental NMR data adhering to one compound must be placed in the same folder and then zipped together
+- The system is able to detect the solvent used in each experiment, so if you performed the same experiment in multiple different solvents please upload the files for each in the same (compound-specific) zip file
+- The system checks for the files generated directly by your NMR instrument, any additional data (i.e. processed data) may be optionally included on an experiment-by-experiment basis
+
+Below are examples of the directory structure required for uploading data belonging to a single compound.
 
 ### **Bruker**
 <img src="https://user-images.githubusercontent.com/55040326/179577178-8e9bf3a1-a276-432c-8a7c-33bbcd7250b0.png" alt="drawing" width="800"/>

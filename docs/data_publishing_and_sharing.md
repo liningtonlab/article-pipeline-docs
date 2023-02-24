@@ -7,9 +7,9 @@
     + [When Data From a Presubmission Is Published](#when-data-from-a-presubmission-is-published)
       - [Publish Immediately](#publish-immediately)
       - [Display Only After Embargo Period Ends](#display-only-after-embargo-period-ends)
+        - [Changing Your Embargo Date](#changing-your-embargo-date)
       - [Display Only After Article Is Published](#display-only-after-article-is-published)
-    + [Changing Your Embargo Date](#changing-your-embargo-date)
-  * [How to Know When Your Data Has Gone Live](#how-to-know-when-your-data-has-gone-live)
+  * [How Do I Know When My Data Has Gone Live?](#how-do-i-know-when-my-data-has-gone-live)
   * [I Can’t Find My Data in the Search or Browse Tabs](#i-can-t-find-my-data-in-the-search-or-browse-tabs)
 
 [Downloading and Sharing NMR Data - The Access Submission Data Page](#downloading-and-sharing-nmr-data---the-access-submission-data-page)
@@ -39,30 +39,33 @@
 
 ### When Data From a Presubmission Is Published
 
-- The embargo date of a pre-deposition or private deposition is initially set when beginning a submission. Data from these submissions is published following the expiration of this embargo data.
+- When starting a presubmission or private deposition you can choose from three different release conditions. <u>These options control when your deposition will show up in the np-mrd.org database</u>. The Options are as follows...
 
 <img src="https://user-images.githubusercontent.com/35554126/206804811-97c88cf5-37c4-40cd-9eba-add26458e539.png" alt="drawing" width="600"/>
 
 
 * #### Publish Immediately
 
-    - If this option is selected then data from the submission will be published as soon as possible.
+    - If this option is selected then data from the submission will be published as soon as possible following the completion of your submission. This typically occurs within 24 hours.
 
 * #### Display Only After Embargo Period Ends
 
-    - If this option is selected then data from the submission will be published as soon as possible following the passing of the specified embargo date. The drag & drop deposition system's clock runs on PST.
+    - If this option is selected then data from the submission will be published as soon as possible following the passing of the specified embargo date.
+    - Note that this release date adhears to PST or UTC -8 and depositions may take up to 24 hours to appear in the database following the passing of your embargo date.
+
+    - #### Changing Your Embargo Date
+    
+        - Upon completion of your submission you will receive a confirmation email containing various links. If you have set an embargo date then a link to a page that will allow you to alter your embargo date will be included in this email. If you no longer have access to this email and would like to change your embargo date please contact us at support@npmrd-deposition.org.
 
 * #### Display Only After Article Is Published
 
-    - If this option is selected then data from the submission will not be published until the DOI of the article it is associated with has been identified by our system. This may occur automatically or via direct submission of a DOI from the depositor (the link for this can be found in the your "deposition complete" email).
+    - If this option is selected then data from the submission will not be published in the np-mrd database until the DOI of the article it is associated with has been submitted to or automatically ingested by our system.
+    - Due to various difficulties associated with automatically attaching a DOI to presubmission there is no guarantee that our system will  If you wish to manually support (the link for this can be found in the your "deposition complete" email).
 
-### Changing Your Embargo Date
 
-- An embargo date may be altered via links provided in the "deposition complete" email received upon finishing your submission. If you have deleted or did not receive this email and you wish to alter your embargo date please contact us (support@npmrd-deposition.org).
+## How Do I Know When My Data Has Gone Live?
 
-## How to Know When Your Data Has Gone Live
-
-- You will receive an email detailing the NP-Card IDs (the ID values used on <a href="np-mrd.org/">np-mrd.org</a>) for each of the compounds you have deposited when they have been fully processed and live on our website.
+- When your submitted compounds have been fully processed and are live in the database you will receive an email containing a list of the NP-Card IDs (the ID values used on <a href="np-mrd.org/">np-mrd.org</a>) that have been assigned to each of the compounds you have deposited.
 
 ## I Can’t Find My Data in the Search or Browse Tabs
 

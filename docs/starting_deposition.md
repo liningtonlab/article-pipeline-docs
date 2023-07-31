@@ -14,14 +14,14 @@ If you did not recieve an email your method of arriving at your deposition page 
 #### 1. My data is from a PUBLISHED article.
 To get to a deposition page you will need to submit your doi through the deposition [front page](http://npmrd-deposition.org/). Once on the front page, you will first have to specify that your data is from a published article. This should load a page with a search bar where you will paste your doi and click "Submit". 
 
-<img src="https://user-images.githubusercontent.com/55040326/161645503-5cb17cc5-ba2a-4b03-b19f-256355af6189.png" alt="drawing" width="600"/>
+<img src="./assets/starting_deposition/enter_doi.png" alt="Enter DOI" width="600px">
 
 Once you submit the doi, you should be brought to your unique deposition link.
 
 #### 2. Presubmission - my data is from an UNPUBLISHED article.
 To get to your deposition page from here you will have to select the UNPUBLISHED option on the [front page](http://npmrd-deposition.org/). This will take you to another page where you will be prompted to enter information about your unpublished article.
 
-<img width="1327" alt="Unpublished Info Page" src="https://user-images.githubusercontent.com/55040326/178079007-2297702a-1790-47e4-96b4-a3c08faef486.png">
+<img src="./assets/starting_deposition/select_presub_type.png" alt="Enter DOI" width="1327px">
 
 Here the entries to be filled out are as follows:
 

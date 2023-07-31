@@ -41,7 +41,7 @@
 
 - When starting a presubmission or private deposition you can choose from three different release conditions. <u>These options control when your deposition will show up in the np-mrd.org database</u>. The Options are as follows...
 
-<img src="https://user-images.githubusercontent.com/35554126/206804811-97c88cf5-37c4-40cd-9eba-add26458e539.png" alt="drawing" width="600"/>
+<img src="./assets/data_publishing_and_sharing/presubmission_options.png" alt="Link To NP Card" width="600"/>
 
 
 * #### Publish Immediately
@@ -87,8 +87,7 @@
 
 - If you wish to keep your data completely private prior to its publication in our database please do not share this link with anyone.
 
-<img src="https://user-images.githubusercontent.com/35554126/206811315-c266ccc8-03af-418e-aa97-476975a1afc7.png" alt="drawing" width="800"/>
-
+<img src="./assets/data_publishing_and_sharing/submission_data_page.png" alt="Link To NP Card" width="800"/>
 
 ## Using the Access Submission Data Page
 
@@ -101,19 +100,18 @@
 - Please note that if you progress to this page immediately after completing your submission we may still be processing your data and will not be able to provide you with download links. If this problem persists for multiple hours following the completion of your submission please contact us directly (support@npmrd-deposition.org)
 
 
-<img src="https://user-images.githubusercontent.com/35554126/207123905-5c732c93-d0d3-468f-b052-920aded54b4f.png" alt="drawing" width="800"/>
-
+<img src="./assets/data_publishing_and_sharing/download_nmr_data.png" alt="Download NMR Data" width="800"/>
 
 
 ### If Your Data is Live in Our Database
 
 - If your data is live in our database you will be provided with links to the NP card for each compound. These will open to a new tab and allow you to access all of your submitted and utilize all of the features that NP-MRD has to offer!
 
-<img src="https://user-images.githubusercontent.com/35554126/207125457-3d5c24c9-124c-4dc7-b9eb-c70ed91d9c8d.png" alt="drawing" width="800"/>
+<img src="./assets/data_publishing_and_sharing/link_to_np_card.png" alt="Link To NP Card" width="800"/>
 
 
 ### If Your Submission Did Not Include NMR Data
 
 - If you did not include NMR data in your submission <u>AND it has not gone live in our database yet</u> then we will not be able to provide you with a download link.
 
-<img src="https://user-images.githubusercontent.com/35554126/207126993-5e696354-5e16-4886-88c8-7eeddbb7d8ab.png" alt="drawing" width="800"/>
+<img src="./assets/data_publishing_and_sharing/no_nmr_data.png" alt="No NMR Data" width="800"/>

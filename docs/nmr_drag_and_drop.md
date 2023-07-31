@@ -18,8 +18,7 @@
 2. [Removing Uploaded NMR Files](#2-removing-uploaded-nmr-files)
 3. [Removing Compounds](#3-removing-compounds)
 4. [Validating](#4-validating)
-5. [Saving For Later](#5-saving-for-later)
-6. [Submitting](#6-submitting)
+5. [Submitting](#6-submitting)
 
 [Troubleshooting and Additional Help](#troubleshooting-and-additional-help) 
 - [Error: Only Varian, JEOL, Bruker files are accepted](#error-only-varian-jeol-bruker-files-are-accepted)
@@ -48,17 +47,17 @@ When uploading data for a <u>single compound</u> please adhere to the following 
 Below are examples of the directory structure required for uploading data belonging to a single compound.
 
 ### **Bruker**
-<img src="https://user-images.githubusercontent.com/55040326/179577178-8e9bf3a1-a276-432c-8a7c-33bbcd7250b0.png" alt="drawing" width="800"/>
+<img src="./assets/nmr_drag_and_drop/bruker_directory_structure.png" alt="Bruker Directory Structure" width="800px">
 
 
 ### **Varian**
-<img src="https://user-images.githubusercontent.com/55040326/179577688-d6727d48-d88e-4dc5-be72-ef1f828c0087.png" alt="drawing" width="800"/>
+<img src="./assets/nmr_drag_and_drop/varian_directory_structure.png" alt="Varian Directory Structure" width="800px">
 
 
 ### **JEOL**
 Our system is currently only designed to accept .jdx files and currently not support the upload of .jdf files directly. [In order to upload data stored in .jdf files they must first be converted to a .jdx file](#jdf). The processing of .jdx files takes longer than other formats so please be patient when uploading.
 
-<img src="https://user-images.githubusercontent.com/55040326/162089401-dcde0d95-4481-4604-8eea-2fb358bf947d.png" alt="drawing"/>
+<img src="./assets/nmr_drag_and_drop/jeol_directory_structure.png" alt="JEOL Directory Structure" width="350px">
 
 <br><br/>
 
@@ -108,8 +107,8 @@ Some formats (.jdf, .mnova) cannot be processed by our system but can be convert
 and then export them all into one .jdx file by right clicking Pages tab and then clicking on "Select All".
 - Ensure that all of your experiments are still selected. Then export a .jdx by clicking File -> Save As and selecting JCAMP-DX as the file export type.
 
-<img src="https://user-images.githubusercontent.com/35554126/196750444-92f29b62-d3c5-4e49-953d-814dee796886.png" alt="mnova_convert_1"/>
-<img src="https://user-images.githubusercontent.com/35554126/196750459-852d088e-251c-4597-a442-03bda4eb7dd9.png" alt="mnova_convert_2"/>
+<img src="./assets/nmr_drag_and_drop/convert_in_mnova_1.png" alt="Convert In MNOVA 1" width="800px">
+<img src="./assets/nmr_drag_and_drop/convert_in_mnova_2.png" alt="Convert In MNOVA 2" width="800px">
 
 <br><br/>
 
@@ -118,16 +117,14 @@ Once you have confirmed the data is in the correct file structure, each folder m
 
 
 #### **Windows 10**
-<img width="800" alt="Windows10 Graphic" src="https://user-images.githubusercontent.com/55040326/162090109-900c92df-418d-4d8d-a44c-5a576b12794a.png">
-
+<img src="./assets/nmr_drag_and_drop/windows_10_graphic.png" alt="Windows10 Graphic" width="800px">
 
 #### **Windows 11**
-<img width="800" alt="Windows11 Graphic" src="https://user-images.githubusercontent.com/55040326/162090126-2753f72e-d852-427a-863c-9040f4353583.png">
+<img src="./assets/nmr_drag_and_drop/windows_11_graphic.png" alt="Windows11 Graphic" width="800px">
 
 
 #### **MacOS**
-<img width="800" alt="MacOS Graphic" src="https://user-images.githubusercontent.com/55040326/162090147-3857045b-5aa5-464f-a11b-6fb92c2856e3.png">
-
+<img src="./assets/nmr_drag_and_drop/mac_os_graphic.png" alt="MacOS Graphic" width="800px">
 
 # Using The Drag & Drop Interface
 
@@ -137,12 +134,12 @@ On the NMR Drag & Drop page you will see the compound info you entered paired an
 Once your NMR files are properly prepared and zipped you may begin uploading them.
 * Drag and drop your prepared raw data zips into the corresponding boxes. (You may also click on the box to bring up the file explorer.)
 
-<img width="1311" alt="Depositing Raw NMR Data v1.2" src="https://user-images.githubusercontent.com/35554126/196299989-4d0ccc6e-a449-4ed2-864e-ca830765c2c6.png">
+<img width="1311" alt="Drag and Drop 1" src="./assets/nmr_drag_and_drop/drag_and_drop_1.png">
 
 * Wait for the upload and check that no errors were presented
 * If upload and processing is successful, the system will provide you a list of detected experiments
 
-<img width="1311" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300219-c2a2b2ba-26fd-432f-879b-36f375cb6eca.png">
+<img width="1311" alt="Drag and Drop 2" src="./assets/nmr_drag_and_drop/drag_and_drop_2.png">
 
 * Uploaded files will persist in a temporary cache our system until submitted. Unsubmitted files will be cleaned from our system approximately 6 hours from initial drag & drop. If you do not submit in this time you must re-upload all your NMR data.
 
@@ -150,7 +147,7 @@ Once your NMR files are properly prepared and zipped you may begin uploading the
 
 * If you wish to remove a file that you have uploaded you can either click the remove file button (the file with the minus) or simply drag & drop another file overtop of the box to upload it instead
 
-    <img width="550" alt="Depositing Raw NMR Data success" src="https://user-images.githubusercontent.com/35554126/196300827-595cf4d3-102e-4ffc-a885-e105e49d1791.png">
+    <img src="./assets/nmr_drag_and_drop/drag_and_drop_remove.png" alt="chemsketch_select" width="550px">
 
 ## *3) Removing Compounds*
 
@@ -160,12 +157,7 @@ Once your NMR files are properly prepared and zipped you may begin uploading the
 
 * Clicking "Validate All" will cause our system to check and inform you if your NMR data is ready to be submitted.
 
-## *5) Saving For Later*
-
-* Clicking "Save For Later" will inform you to bookmark the page if you wish to temporarily suspend your submission. You may resume by simply returning to the URL
-* For technical reasons any NMR files that have been uploaded but <u>that have not been submitted</u> will only persist in our system for approximately 6 hours before being cleaned. If you return after this period you may have to re-upload previously uploaded data
-
-## *6) Submitting*
+## *5) Submitting*
 
 * All compounds must have valid NMR files uploaded in order to submit
 * Submitting will cause all uploaded files to be properly saved and stored in our system
@@ -182,7 +174,7 @@ This is indicating that the webpage has not found NMR Data produced by one of th
 2. Check to make sure that your NMR folders have parameter files in them. These files are labelled "procpar" for Varian data and "acqu/acqus" for Bruker data.
 3. Email us at support@npmrd-deposition.org.
 
-<img src="https://user-images.githubusercontent.com/55040326/162330960-e64253c8-d4a7-402b-b1d6-a95a70266899.png" alt="drawing" width="500"/>
+<img src="./assets/nmr_drag_and_drop/varian_acqu.png" alt="Varian acqu" width="500px">
 
 <br><br/>
 

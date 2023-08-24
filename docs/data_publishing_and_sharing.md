@@ -26,8 +26,12 @@
 ## From Submission to NP Card
 
 - Submissions often include multiple compounds that were discovered and put through the drag-and-drop system together. Completed submissions will be have each of their compounds published as a separate NP-Card on https://np-mrd.org/.
-- We recommend the following format for displaying your NP Cards in publications:
+
+- We recommend the following format for displaying your NP-MRD IDs in the data availability statement of publications:
+
+
   "The NMR data for compounds 1-4 have been deposited in the Natural Products Magnetic Resonance Database (<a href="np-mrd.org/">np-mrd.org</a>) under accession numbers NP0331529, NP0017652, NP0017654, NP0331530."
+
 
 ## When Data Published in the Database
 

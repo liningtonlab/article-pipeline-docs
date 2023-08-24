@@ -7,9 +7,9 @@
     + [When Data From a Presubmission Is Published](#when-data-from-a-presubmission-is-published)
       - [Publish Immediately](#publish-immediately)
       - [Display Only After Embargo Period Ends](#display-only-after-embargo-period-ends)
+        - [Changing Your Embargo Date](#changing-your-embargo-date)
       - [Display Only After Article Is Published](#display-only-after-article-is-published)
-    + [Changing Your Embargo Date](#changing-your-embargo-date)
-  * [How to Know When Your Data Has Gone Live](#how-to-know-when-your-data-has-gone-live)
+  * [How Do I Know When My Data Has Gone Live?](#how-do-i-know-when-my-data-has-gone-live)
   * [I Can’t Find My Data in the Search or Browse Tabs](#i-can-t-find-my-data-in-the-search-or-browse-tabs)
 
 [Downloading and Sharing NMR Data - The Access Submission Data Page](#downloading-and-sharing-nmr-data---the-access-submission-data-page)
@@ -41,30 +41,33 @@
 
 ### When Data From a Presubmission Is Published
 
-- The embargo date of a pre-deposition or private deposition is initially set when beginning a submission. Data from these submissions is published following the expiration of this embargo data.
+- When starting a presubmission or private deposition you can choose from three different release conditions. <u>These options control when your deposition will show up in the np-mrd.org database</u>. The Options are as follows...
 
-<img src="https://user-images.githubusercontent.com/35554126/206804811-97c88cf5-37c4-40cd-9eba-add26458e539.png" alt="drawing" width="600"/>
+<img src="./assets/data_publishing_and_sharing/presubmission_options.png" alt="Link To NP Card" width="600"/>
 
 
 * #### Publish Immediately
 
-    - If this option is selected then data from the submission will be published as soon as possible.
+    - If this option is selected then data from the submission will be published as soon as possible following the completion of your submission. This typically occurs within 24 hours.
 
 * #### Display Only After Embargo Period Ends
 
-    - If this option is selected then data from the submission will be published as soon as possible following the passing of the specified embargo date. The drag & drop deposition system's clock runs on PST.
+    - If this option is selected then data from the submission will be published as soon as possible following the passing of the specified embargo date.
+    - Note that this release date adhears to PST or UTC -8 and depositions may take up to 24 hours to appear in the database following the passing of your embargo date.
+
+    - #### Changing Your Embargo Date
+    
+        - Upon completion of your submission you will receive a confirmation email containing various links. If you have set an embargo date then a link to a page that will allow you to alter your embargo date will be included in this email. If you no longer have access to this email and would like to change your embargo date please contact us at support@npmrd-deposition.org.
 
 * #### Display Only After Article Is Published
 
-    - If this option is selected then data from the submission will not be published until the DOI of the article it is associated with has been identified by our system. This may occur automatically or via direct submission of a DOI from the depositor (the link for this can be found in the your "deposition complete" email).
+    - If this option is selected then data from the submission will not be published in the np-mrd database until the DOI of the article it is associated with has been submitted to or automatically ingested by our system.
+    - Due to various difficulties associated with automatically attaching a DOI to presubmission there is no guarantee that our system will  If you wish to manually support (the link for this can be found in the your "deposition complete" email).
 
-### Changing Your Embargo Date
 
-- An embargo date may be altered via links provided in the "deposition complete" email received upon finishing your submission. If you have deleted or did not receive this email and you wish to alter your embargo date please contact us (support@npmrd-deposition.org).
+## How Do I Know When My Data Has Gone Live?
 
-## How to Know When Your Data Has Gone Live
-
-- You will receive an email detailing the NP-Card IDs (the ID values used on <a href="np-mrd.org/">np-mrd.org</a>) for each of the compounds you have deposited when they have been fully processed and live on our website.
+- When your submitted compounds have been fully processed and are live in the database you will receive an email containing a list of the NP-Card IDs (the ID values used on <a href="np-mrd.org/">np-mrd.org</a>) that have been assigned to each of the compounds you have deposited.
 
 ## I Can’t Find My Data in the Search or Browse Tabs
 
@@ -86,8 +89,7 @@
 
 - If you wish to keep your data completely private prior to its publication in our database please do not share this link with anyone.
 
-<img src="https://user-images.githubusercontent.com/35554126/206811315-c266ccc8-03af-418e-aa97-476975a1afc7.png" alt="drawing" width="800"/>
-
+<img src="./assets/data_publishing_and_sharing/submission_data_page.png" alt="Link To NP Card" width="800"/>
 
 ## Using the Access Submission Data Page
 
@@ -100,19 +102,18 @@
 - Please note that if you progress to this page immediately after completing your submission we may still be processing your data and will not be able to provide you with download links. If this problem persists for multiple hours following the completion of your submission please contact us directly (support@npmrd-deposition.org)
 
 
-<img src="https://user-images.githubusercontent.com/35554126/207123905-5c732c93-d0d3-468f-b052-920aded54b4f.png" alt="drawing" width="800"/>
-
+<img src="./assets/data_publishing_and_sharing/download_nmr_data.png" alt="Download NMR Data" width="800"/>
 
 
 ### If Your Data is Live in Our Database
 
 - If your data is live in our database you will be provided with links to the NP card for each compound. These will open to a new tab and allow you to access all of your submitted and utilize all of the features that NP-MRD has to offer!
 
-<img src="https://user-images.githubusercontent.com/35554126/207125457-3d5c24c9-124c-4dc7-b9eb-c70ed91d9c8d.png" alt="drawing" width="800"/>
+<img src="./assets/data_publishing_and_sharing/link_to_np_card.png" alt="Link To NP Card" width="800"/>
 
 
 ### If Your Submission Did Not Include NMR Data
 
 - If you did not include NMR data in your submission <u>AND it has not gone live in our database yet</u> then we will not be able to provide you with a download link.
 
-<img src="https://user-images.githubusercontent.com/35554126/207126993-5e696354-5e16-4886-88c8-7eeddbb7d8ab.png" alt="drawing" width="800"/>
+<img src="./assets/data_publishing_and_sharing/no_nmr_data.png" alt="No NMR Data" width="800"/>

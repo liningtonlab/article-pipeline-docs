@@ -4,7 +4,7 @@
 
 ## About NP-MRD 
 
-<details markdown="1">
+<details>
     <summary>What is the NP-MRD</summary>
 
 - The NP-MRD is a freely available cloud-based, user-friendly, FAIR electronic database. NP-MRD supports NMR data deposition and associated metadata from NP studies characterizing new and known compounds. 
